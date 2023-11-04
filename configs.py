@@ -6,7 +6,7 @@ class Config:
     BOT_TOKEN = getenv("BOT_TOKEN", "6788557765:AAEec6hx56HDjNoZT6oaKrqWmCx3zvaOEdM")
     FSUB = getenv("FSUB", "synaxnetwork")
     CHID = int(getenv("CHID", "-1002132398644"))
-    SUDO = list(map(int, getenv("6231550362").split()))
+    SUDO = list(map(int, getenv("SUDO").split()))
     MONGO_URI = getenv("mongodb+srv://synaxxkhushi:synaxherebaby@cluster0.vqzfrg0.mongodb.net/?retryWrites=true&w=majority", "")
     
 cfg = Config()
