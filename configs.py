@@ -7,6 +7,6 @@ class Config:
     FSUB = getenv("FSUB", "synaxnetwork")
     CHID = int(getenv("CHID", "-1002132398644"))
     SUDO = list(map(int, getenv("SUDO").split()))
-    MONGO_URI = getenv("mongodb+srv://synaxxkhushi:synaxherebaby@cluster0.vqzfrg0.mongodb.net/?retryWrites=true&w=majority", "")
+    MONGO_URI = getenv("MONGO_URI", "mongodb+srv://EXONTESTMONGO:EXONTESTMONGO@cluster0.bviw7ic.mongodb.net/?retryWrites=true&w=majority")
     
 cfg = Config()
