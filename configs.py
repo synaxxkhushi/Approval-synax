@@ -5,7 +5,7 @@ class Config:
     API_HASH = getenv("API_HASH", "da128bd223a333f5bde8dc1359db4609")
     BOT_TOKEN = getenv("BOT_TOKEN", "6788557765:AAEec6hx56HDjNoZT6oaKrqWmCx3zvaOEdM")
     FSUB = getenv("FSUB", "synaxnetwork")
-    CHID = int(getenv("CHID", "-1002132398644"))
+    CHID = int(getenv("CHID", "-1002048449286"))
     SUDO = list(map(int, getenv("SUDO").split()))
     MONGO_URI = getenv("MONGO_URI", "mongodb+srv://EXONTESTMONGO:EXONTESTMONGO@cluster0.bviw7ic.mongodb.net/?retryWrites=true&w=majority")
     
